@@ -1,0 +1,109 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    padding-top: 70px;
+}
+
+.navbar {
+    background-color: #007bff;
+}
+
+.navbar-brand,
+.nav-link {
+    color: #fff !important;
+}
+
+.navbar-brand:hover,
+.nav-link:hover {
+    color: #f8f9fa !important;
+}
+
+#home .carousel-inner img {
+    height: 600px;
+    object-fit: cover;
+}
+
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#about {
+    background-color: #f8f9fa;
+    padding: 60px 0;
+}
+
+#about h2 {
+    margin-bottom: 20px;
+}
+
+#about p {
+    font-size: 1.2rem;
+}
+
+#quiz {
+    padding: 60px 0;
+}
+
+#quiz h2 {
+    margin-bottom: 20px;
+}
+
+#quiz .card {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#feedback {
+    background-color: #f8f9fa;
+    padding: 60px 0;
+}
+
+#feedback h2 {
+    margin-bottom: 20px;
+}
+
+#feedback .form-group {
+    margin-bottom: 15px;
+}
+
+#contact {
+    padding: 60px 0;
+}
+
+#contact .btn-social-icon {
+    font-size: 1.5rem;
+    margin: 0 10px;
+}
+
+#contact .btn-social-icon:hover {
+    color: #007bff;
+}
+
+footer {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    #home .carousel-inner img {
+        height: 400px;
+    }
+
+    #about,
+    #quiz,
+    #feedback,
+    #contact {
+        padding: 40px 0;
+    }
+
+    #quiz .card {
+        padding: 0 20px;
+    }
+}
